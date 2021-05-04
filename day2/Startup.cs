@@ -32,7 +32,7 @@ namespace day2
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello modified from firstBranch");
                 });
             });
         }

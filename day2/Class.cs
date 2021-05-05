@@ -7,6 +7,6 @@ namespace day2
 {
     public class Class
     {
-
+      public string name;
     }
 }
